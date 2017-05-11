@@ -63,9 +63,9 @@ public class SecondAdapter extends BaseAdapter {
         String info = mDatas.get(position);
         viewHolder.btnInfo.setText(info);
         if(position%2==0){
-            viewHolder.ivInfo.setImageResource(android.support.v7.appcompat.R.drawable.abc_ic_menu_share_mtrl_alpha);
+            viewHolder.ivInfo.setImageResource(R.mipmap.butterfly);
         }else{
-            viewHolder.ivInfo.setImageResource(android.support.v7.appcompat.R.drawable.abc_ic_star_black_36dp);
+            viewHolder.ivInfo.setImageResource(R.mipmap.star);
         }
         return convertView;
     }
