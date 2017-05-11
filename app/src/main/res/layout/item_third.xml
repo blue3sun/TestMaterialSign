@@ -26,11 +26,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="50dp"
             android:padding="20dp"
             android:elevation="20dp"
-            android:background="#ff00ff"
-            android:foreground="@drawable/foreground"/>
+            android:background="@drawable/foreground"/>
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

@@ -20,8 +20,11 @@
     </item>
 </ripple>-->
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="?attr/colorControlHighlight">
+    android:color="#ff00ff"> <!--这里是扩散水波纹的色值-->
+    <!--如果不写下面三行，波纹的效果会向边界外延伸；加上如下的id(id名字不能变)并不会真正绘制相应的颜色或者背景，只是告诉系统需要绘制的边界-->
+
+    <!--如果不写这个id或者叫其他的id名字 那么不管后面你设置的是透明色还是透明图片 点击时候的波纹都没有效果-->
     <item android:id="@android:id/mask">
-        <color android:color="@android:color/white" />
+        <color android:color="#ffff00" />
     </item>
 </ripple>
