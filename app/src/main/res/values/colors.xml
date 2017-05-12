@@ -4,5 +4,7 @@
     <color name="textColorPrimary">#FF0000</color>
     <color name="colorPrimaryDark">#00F0F9</color>
     <color name="statusBarColor">#00ff00</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#9CFB70</color>
+    <color name="colorControlHighlight">#FF0000</color>
+    <color name="colorButtonNormal">#00FF00</color>
 </resources>

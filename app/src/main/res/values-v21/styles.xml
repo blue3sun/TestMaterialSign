@@ -3,11 +3,31 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:ThemeOverlay.Material.Light">
          Customize your theme here.
+
+        <!--toolbar颜色-->
         <item name="android:colorPrimary">@color/colorPrimary</item>
+
+        <!--toolbar颜色 文字颜色-->
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+        <!--状态栏颜色(?)  statusBarColor会继承该颜色 但是如果不设置statusBarColor状态栏颜色仍然没有效果-->
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!--状态栏颜色-->
         <item name="android:statusBarColor">@color/statusBarColor</item>
+
+        <!--许多控件在选中状态或获取焦点状态下使用这个颜色
+        常见有：CheckBox：checked 状态  RadioButton：checked 状态
+        SwitchCompat：checked 状态  EditText：获取焦点时的 underline 和 cursor 颜色
+        TextInputLayout：悬浮 label 字体颜色 等等-->
         <item name="android:colorAccent">@color/colorAccent</item>
+
+        <!--所有可点击 Views 触摸状态下的 Ripple（涟漪）效果。仅作用于 Lollipop 及更高版本。-->
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+
+        <!--Button normal 状态下的背景色。注意，这种设置与 Button 的 android:background 属性改变背景色不同的是，
+        前者在 Lollipop 及更高版本上会让 Button 依旧保持阴影和 Ripple 触摸效果。-->
+        <item name="android:colorButtonNormal">@color/colorButtonNormal</item>
     </style>
 
 </resources>

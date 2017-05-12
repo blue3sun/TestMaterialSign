@@ -6,6 +6,25 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:actionBarItemBackground">@color/colorPrimary</item>-->
+        <!--<item name="android:actionBarStyle">@style/actionBarTheme</item>-->
+    </style>
+
+    <style name="actionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        Customize your theme here.
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:subtitleTextStyle">@style/mySubtitleTextStyle</item>
+    </style>
+
+    <style name="actionBarText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        Customize your theme here.
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="mySubtitleTextStyle"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">50dp</item>
     </style>
 
 </resources>

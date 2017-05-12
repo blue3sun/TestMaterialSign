@@ -25,7 +25,7 @@ public class ThirdActivity extends Activity {
 
     private void initData() {
         mDatas = new ArrayList<String>();
-        for(int i=0;i<10;i++){
+        for(int i=0;i<4;i++){
             mDatas.add("测试数据000"+i);
         }
     }
